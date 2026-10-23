@@ -1,10 +1,10 @@
 # Goal Rules Skill
 
-[![Download Skill](https://img.shields.io/badge/Download-goal--rules.skill-blue?style=for-the-badge)](https://github.com/nyxandro/goal-rules-skill/raw/main/dist/goal-rules.skill)
+[![Download Goal Rules Skill](https://img.shields.io/badge/Download-goal--rules.skill-blue?style=for-the-badge)](https://github.com/nyxandro/goal-rules-skill/raw/main/dist/goal-rules.skill)
 
-A skill for Claude Code and OpenCode: the rules an agent works by when the owner sets a long
-task and walks away. It activates on a `/goal` task and on any wording of "do it all to the
-end, don't ask me anything, I'll check when I'm back".
+A goal mode skill for Claude Code and OpenCode: the rules an autonomous agent works by when the
+owner sets a long task and walks away. It activates on a `/goal` task and on any wording of "do
+it all to the end, don't ask me anything, I'll check when I'm back".
 
 Two things go wrong when nobody is there to answer. The agent stops on the first ambiguity with
 a question that will not be answered, and the whole window of time is lost. Or the agent decides
@@ -41,6 +41,17 @@ back and asks what happened, the answer is five to seven lines from the report, 
 step is theirs.
 
 ## Install
+
+**Claude Code, as a plugin**, from [nyxandro/skills](https://github.com/nyxandro/skills), the
+catalog of my skills:
+
+```text
+/plugin install goal-rules --marketplace nyxandro/skills
+```
+
+Use one way or the other: with both, Claude Code loads the skill twice.
+
+**Any agent, as a skill folder:**
 
 Download `dist/goal-rules.skill` (the badge above) and unpack it into the skills folder of your
 agent, or clone this repository and link the `goal-rules/` folder there. The skill is a single
