@@ -11,6 +11,8 @@ description: >
   writes the decision down, never crosses a short stop-list of actions, uses only short simple
   terminal commands, and leaves a written report. The owner may phrase this in another language;
   match on meaning.
+metadata:
+  version: "1.0.0"
 ---
 
 # Goal rules
