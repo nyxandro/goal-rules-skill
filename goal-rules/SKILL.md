@@ -2,17 +2,15 @@
 name: goal-rules
 description: >
   Rules for goal mode: a long task the owner sets with the /goal command and then walks away
-  from. Activate this skill every time a /goal task is set, and whenever the owner hands over a
+  from, finished without questions to the owner and without crossing a stop-list of forbidden
+  actions. Activate this skill every time a /goal task is set, and whenever the owner hands over a
   task and leaves in any wording: "I'm setting a long task and leaving the computer, don't ask
   me anything", "just go and do everything to the end", "if something is unclear, decide it
   yourself as you see fit and write it down", "questions to me are strictly forbidden, act on
-  your own", "work autonomously, I'll check when I'm back", "run this overnight". The agent then
-  works to completion with no questions to the owner, decides every open point itself and
-  writes the decision down, never crosses a short stop-list of actions, uses only short simple
-  terminal commands, and leaves a written report. The owner may phrase this in another language;
-  match on meaning.
+  your own", "work autonomously, I'll check when I'm back", "run this overnight". The owner may
+  phrase this in another language; match on meaning.
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # Goal rules
